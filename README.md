@@ -8,7 +8,7 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
 [![Ethereum](https://img.shields.io/badge/Network-Sepolia_Testnet-3C3C3D?logo=ethereum)](https://sepolia.etherscan.io/)
 [![IPFS](https://img.shields.io/badge/Storage-IPFS_(Pinata)-65C2CB?logo=ipfs)](https://pinata.cloud/)
-[![Tests](https://img.shields.io/badge/Tests-78_passing-brightgreen)]()
+[![Tests](https://img.shields.io/badge/Tests-45_passing-brightgreen)]()
 
 </div>
 
@@ -336,7 +336,7 @@ cd contracts
 npx hardhat test
 ```
 
-**78 test cases** bao gồm:
+**45 test cases** bao gồm:
 - ✅ Deployment & cấu hình
 - ✅ Tạo yêu cầu (đơn lẻ & hàng loạt)
 - ✅ Xác nhận & thanh toán (confirmAndMint)
