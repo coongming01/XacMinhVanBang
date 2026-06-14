@@ -1,0 +1,22 @@
+{
+  "name": "xacminhvanbang-contracts",
+  "version": "1.0.0",
+  "description": "Soulbound Degree NFT Smart Contracts for XacMinhVanBang",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network localhost",
+    "node": "npx hardhat node",
+    "export-abi": "node scripts/export-abi.js"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.0"
+  },
+  "license": "MIT"
+}
